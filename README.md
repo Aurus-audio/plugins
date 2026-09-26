@@ -13,7 +13,7 @@ is refused. See `docs/plugin-catalog.md` in the player's repository.
 | plugin | version | what |
 |---|---|---|
 | Lyrics | 1.0.1 | words to what is playing, line by line (engine, uses the internet — lrclib.net) |
-| Listening Stats | 1.0.1 | top artists and tracks by day / week / month (engine, reads what you play, no network) |
+| Listening Stats | 1.0.2 | top artists and tracks by day / week / month (engine, reads what you play, no network) |
 | Track Info | 1.1.0 | format, rate, depth, file and signal path of the current track |
 
 Publishing (on the machine with the signing key):
