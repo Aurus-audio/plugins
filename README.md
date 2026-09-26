@@ -20,7 +20,8 @@ Publishing (on the machine with the signing key):
 
 ```sh
 scripts/aurus-license.py plugin-pack examples/plugins/<id> --out <id>-<version>.aurusplugin
-# keep one version per plugin in this directory
+# keep the older files too — a device may hold a cached catalogue that names them;
+# catalog-build offers the newest version of each plugin
 scripts/aurus-license.py catalog-build . \
     --base-url https://raw.githubusercontent.com/Aurus-audio/plugins/main --out catalog.txt
 git add -A && git commit && git push
